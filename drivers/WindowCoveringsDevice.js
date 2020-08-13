@@ -91,7 +91,6 @@ class WindowCoveringsDevice extends Device {
     const device = data.find(deviceHelper.isSameDevice(this.getData().id), this);
 
     if (device) {
-
       //device exists -> let's sync the state of the device
       // io_horizontal_awning has core:OpenClosedState and core:DeploymentState
       // io_roller_shutter has core:OpenClosedState and core:ClosureState
